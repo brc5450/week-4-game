@@ -1,0 +1,91 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#3f5efb, #fc466b);
+    height: 100%;
+    margin:0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    color: #ffffff;
+    
+    
+}
+
+.crystals {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.crystal {
+    height: 200px;
+    width: 200px;
+}
+
+.crystal:hover {
+    cursor: pointer;
+}
+
+#score {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+
+#result {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#won {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+
+#lost {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+
+#good-luck {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+@media screen and (min-width: 400px) {
+    #score {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #score {
+        padding-top: 0;
+    }
